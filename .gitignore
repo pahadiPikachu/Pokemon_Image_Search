@@ -1,0 +1,39 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore logo and favicon files in the public folder
+/public/logo192.png
+/public/logo512.png
+/public/favicon.ico
+
+# Ignore default CSS and JS files in the src folder
+/src/App.css
+/src/index.css
+/src/App.js
+/src/NTUse.js
+/src/App.test.js
+/src/reportWebVitals.js
+/src/NotUsingthisIndx.js
+/src/logo.svg
+/src/setupTests.js
